@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primer Proyecto</title>
+</head>
+<body>
+    <h1>¡Hola mundo! a mi primer proyecto LarnU</h1>
+    <hr>
+    <div>
+        <h3>Presentación</h3>
+        <p>"Mi primer proyecto" es una creación del curso <strong>HTML de LarnU</strong> donde se pone a prueba nuestro dominio sobre los aspectos básicos de HTML</>
+    </div>
+    <div>
+        <h4>Datos sobre el estudiante</h4>
+        <ul>
+            <li>Nombre: Gianni Dagnino</li>
+            <li>Nacionalidad: Chilena</li>
+            <li>Región: Valparaíso</li>
+            <li>Profesión: Docente de matemáticas</li>
+        </ul>
+    </div>
+    <div>
+        <h4>Mis libros favoritos</h4>
+        <table>
+            <tr>
+                <th>Titulo</th>
+                <th>Autor</th>
+                <th>Enlace a M.L.</th>
+            </tr>
+            <tr>
+                <td>Los Miserables</td>
+                <td>Victor Hugo</td>
+                <td><a target="_blank" id="libro1" href="https://www.buscalibre.cl/libro-les-miserables-tome-1-jean-valjean-texte-abrege-livre-de-poche-jeunesse-libro-en-frances/9782010015779/p/53354007">Click aquí</a></td>
+            </tr>
+            <tr>
+                <td>7 Pilares de la sabiduría</td>
+                <td>Lawrence de Arabia</td>
+                <td><a target="_blank" id="libro2" href="https://www.buscalibre.cl/libro-puertas-de-la-percepcion-las/9786073123419/p/42761250">Click aquí</a></td>
+            </tr>
+            <tr>
+                <td>Las puertas de la percepción</td>
+                <td>Aldous Huxley</td>
+                <td><a target="_blank" id="libro3" href="https://www.buscalibre.cl/libro-los-siete-pilares-de-la-sabiduria/9788466662338/p/48959461">Click aquí</a></td>
+            </tr>
+        </table>
+    </div>
+    <footer>
+        <p>Contacto: giannipaolodagnino@gmail.com</p>
+        <p>Discord: Gianni Dagnino</p>
+        <img src="https://www.flaticon.es/icono-premium/discordia_2585184" alt="icono de discord" width="20" height="20" />
+    </footer> 
+</body>
+</html>
